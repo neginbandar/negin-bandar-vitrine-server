@@ -26,4 +26,18 @@ router.route("/").get((req, res) => {
   }
 });
 
+router.route("/:user_id").get(async (req, res) => {
+  const { user_id } = req.params;
+  try {
+    const users = JSON.parse(fs.readFileSync("./data/users.json"));
+    const user = users.find((user) => user.user_id === parseInt(user_id));
+    if (!user) {
+      return res.status(404).json({ message: "User not found." });
+    }
+    res.status(200).json(user);
+  } catch (error) {
+    console.log("Error fetching users", error);
+  }
+});
+
 export default router;

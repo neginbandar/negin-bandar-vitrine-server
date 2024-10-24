@@ -1,7 +1,6 @@
 [
   {
     "post_id": 987,
-    "product_id": 10010,
     "user_id": 2,
     "post_picture": "http://localhost:8080/images/post_20.jpg",
     "created_at": 1691471862000,
@@ -12,8 +11,43 @@
         "product_description": "A beige sofa with a modern design. Super  comfortable and stylish.",
         "product_category": "Home",
         "product_image": "http://localhost:8080/images/product_1.jpg",
+        "product_link": "",
         "discount_code": ""
       }
     ]
+  },
+  {
+    "post_id": 988,
+    "user_id": 2,
+    "post_picture": "http://localhost:8080/images/post_20.jpg",
+    "created_at": 1691471862000,
+    "products": [
+      {
+        "product_id": 101011,
+        "product_name": "Pink Sofa",
+        "product_description": "A pink sofa with a modern design. Super  comfortable and stylish.",
+        "product_category": "Home",
+        "product_image": "http://localhost:8080/images/product_1.jpg",
+        "product_link": "",
+        "discount_code": ""
+      }
+    ]
+  },
+  {
+    "post_picture": "https://ca.pinterest.com/pin/249246161359614341/",
+    "user_id": 2,
+    "products": [
+      {
+        "product_id": "45fe61ac-8ebd-4714-9a5f-a7ec211773cd",
+        "product_name": "",
+        "product_description": "",
+        "product_category": "Home",
+        "product_image": "https://ca.pinterest.com/pin/249246161359614341/",
+        "product_link": "https://ca.pinterest.com/pin/249246161359614341/",
+        "discount_code": ""
+      }
+    ],
+    "post_id": "b499338a-1340-41c8-93a3-34c367a133bf",
+    "created_at": 1729787265564
   }
 ]
