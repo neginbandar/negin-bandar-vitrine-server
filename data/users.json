@@ -1,0 +1,24 @@
+[
+  {
+    "user_id": 1,
+    "user_type": "creator",
+    "username": "negiiinb",
+    "password": "1234",
+    "first_name": "Negin",
+    "last_name": "Bandar",
+    "profile_picture": "",
+    "profile_about": "",
+    "created_at": 1691471862000
+  },
+  {
+    "user_id": 2,
+    "user_type": "creator",
+    "username": "LindaRcc",
+    "password": "1234",
+    "first_name": "Linda",
+    "last_name": "Ricci",
+    "profile_picture": "",
+    "profile_about": "",
+    "created_at": 1691471862000
+  }
+]

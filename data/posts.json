@@ -1,0 +1,19 @@
+[
+  {
+    "post_id": 987,
+    "product_id": 10010,
+    "user_id": 2,
+    "post_picture": "http://localhost:8080/images/post_20.jpg",
+    "created_at": 1691471862000,
+    "products": [
+      {
+        "product_id": 101010,
+        "product_name": "Beige Sofa",
+        "product_description": "A beige sofa with a modern design. Super  comfortable and stylish.",
+        "product_category": "Home",
+        "product_image": "http://localhost:8080/images/product_1.jpg",
+        "discount_code": ""
+      }
+    ]
+  }
+]
