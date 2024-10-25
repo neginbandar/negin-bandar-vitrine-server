@@ -6,8 +6,8 @@
     "password": "1234",
     "first_name": "Negin",
     "last_name": "Bandar",
-    "profile_picture": "",
-    "profile_about": "",
+    "profile_picture": "http://localhost:8080/images/profile-pic.jpg",
+    "profile_about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet, ante non gravida tincidunt, ex diam vehicula arcu, in viverra diam erat a urna. Nullam non sodales orci. ",
     "created_at": 1691471862000
   },
   {
@@ -17,8 +17,8 @@
     "password": "1234",
     "first_name": "Linda",
     "last_name": "Ricci",
-    "profile_picture": "",
-    "profile_about": "",
+    "profile_picture": "http://localhost:8080/images/profile-pic.jpg",
+    "profile_about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet, ante non gravida tincidunt, ex diam vehicula arcu, in viverra diam erat a urna. Nullam non sodales orci.",
     "created_at": 1691471862000
   }
 ]
