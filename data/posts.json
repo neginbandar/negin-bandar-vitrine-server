@@ -64,5 +64,29 @@
         "product_picture": "http://localhost:8080/undefined"
       }
     ]
+  },
+  {
+    "user_id": "2",
+    "post_picture": "http://localhost:8080//uploads/new_post-image.jpeg",
+    "post_id": 4,
+    "created_at": "2024-10-27T01:32:22.212Z",
+    "products": [
+      {
+        "product_id": "1",
+        "product_name": "dklsdd",
+        "discount_code": "grdkfgkdf",
+        "product_category": "Home",
+        "product_link": "lkrgkrk",
+        "product_picture": "http://localhost:8080//uploads/product_3.png"
+      },
+      {
+        "product_id": "2",
+        "product_name": "orwjnds",
+        "discount_code": "svsdnvjfns",
+        "product_category": "Electronics",
+        "product_link": "sdm nvsfj",
+        "product_picture": "http://localhost:8080/undefined"
+      }
+    ]
   }
 ]
