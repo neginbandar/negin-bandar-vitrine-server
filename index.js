@@ -5,6 +5,7 @@ import usersRoute from "./routes/users-route.js";
 import postsRoute from "./routes/posts-route.js";
 import categoriesRoute from "./routes/categories-route.js";
 import multer from "multer";
+import fs from "fs";
 
 const { PORT, BACKEND_URL } = process.env;
 const app = express();
@@ -38,7 +39,21 @@ app.post(
   (req, res) => {
     console.log("Body:", req.body);
     console.log("Files:", req.files);
-    res.status(200).json({ message: "Files uploaded successfully" });
+    const postImage = req.files["post-image"]
+      ? req.files["post-image"][0]
+      : null;
+    const productImage = req.files["product-image"]
+      ? req.files["product-image"][0]
+      : null;
+    const response = { message: "Files uploaded successfully" };
+    if (postImage) {
+      response.postImageUrl = `/uploads/${postImage.filename}`;
+    }
+
+    if (productImage) {
+      response.productImageUrl = `/uploads/${productImage.filename}`;
+    }
+    res.status(200).json(response);
   }
 );
 
