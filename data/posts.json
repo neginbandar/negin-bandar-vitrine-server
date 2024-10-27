@@ -1,12 +1,12 @@
 [
   {
-    "post_id": 987,
+    "post_id": 1,
     "user_id": 2,
     "post_picture": "http://localhost:8080/images/post_20.jpeg",
     "created_at": 1691471862000,
     "products": [
       {
-        "product_id": 101010,
+        "product_id": 1,
         "product_name": "Beige Sofa",
         "product_description": "A beige sofa with a modern design. Super  comfortable and stylish.",
         "product_category": "Home",
@@ -17,13 +17,13 @@
     ]
   },
   {
-    "post_id": 988,
+    "post_id": 2,
     "user_id": 2,
     "post_picture": "http://localhost:8080/images/post_22.jpeg",
     "created_at": 1691471862000,
     "products": [
       {
-        "product_id": 101011,
+        "product_id": 1,
         "product_name": "Coffee Table",
         "product_description": "Wooden coffee table, great addition to my living room!",
         "product_category": "Home",
@@ -48,7 +48,7 @@
         "product_picture": "http://localhost:8080//uploads/product_3.png"
       },
       {
-        "product_id": "1",
+        "product_id": "2",
         "product_name": "dvgdgv",
         "discount_code": "fgdgfd",
         "product_category": "Home",
@@ -88,5 +88,12 @@
         "product_picture": "http://localhost:8080/undefined"
       }
     ]
+  },
+  {
+    "user_id": "2",
+    "post_picture": "http://localhost:8080/undefined",
+    "post_id": 5,
+    "created_at": "2024-10-27T17:57:26.508Z",
+    "products": []
   }
 ]
