@@ -94,4 +94,25 @@ router.route("/:user_id").get((req, res) => {
   }
 });
 
+router.route("/:user_id/:post_id").get((req, res) => {
+  const { user_id } = req.params;
+  const { post_id } = req.params;
+  try {
+    const posts = JSON.parse(fs.readFileSync("./data/posts.json"));
+    const userPosts = posts.filter(
+      (post) => post.user_id === parseInt(user_id)
+    );
+    const post = userPosts.find((post) => post.post_id === parseInt(post_id));
+    console.log("Filtered post:", post);
+    if (post) {
+      res.status(200).json(post);
+    } else {
+      res.status(404).json({ message: "No posts yet!" });
+    }
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: "Error retrieving posts data." });
+  }
+});
+
 export default router;
