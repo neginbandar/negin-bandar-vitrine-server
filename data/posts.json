@@ -34,53 +34,45 @@
     ]
   },
   {
-    "user_id": "2",
-    "post_picture": "/uploads/product_3.png",
+    "user_id": 2,
+    "post_picture": "http://localhost:8080/images/post_23.jpeg",
     "post_id": 3,
     "created_at": "2024-10-26T22:43:19.175Z",
     "products": [
       {
-        "product_id": "1",
+        "product_id": 1,
         "product_name": "dvgdgv",
         "discount_code": "fgdgfd",
         "product_category": "Home",
         "product_link": "fgf",
-        "product_picture": "http://localhost:8080//uploads/product_3.png"
+        "product_picture": "http://localhost:8080/images/product_3.png"
       },
       {
-        "product_id": "2",
+        "product_id": 2,
         "product_name": "dvgdgv",
         "discount_code": "fgdgfd",
         "product_category": "Home",
         "product_link": "fgf",
-        "product_picture": "http://localhost:8080//uploads/product_3.png"
-      },
-      {
-        "product_id": "3",
-        "product_name": "fvdfvd",
-        "discount_code": "fbfbf",
-        "product_category": "Beauty",
-        "product_link": "rgrgfgb",
-        "product_picture": "http://localhost:8080/undefined"
+        "product_picture": "http://localhost:8080/images/product_3.png"
       }
     ]
   },
   {
-    "user_id": "2",
-    "post_picture": "http://localhost:8080//uploads/new_post-image.jpeg",
+    "user_id": 2,
+    "post_picture": "http://localhost:8080/images/new_post-image.jpeg",
     "post_id": 4,
     "created_at": "2024-10-27T01:32:22.212Z",
     "products": [
       {
-        "product_id": "1",
+        "product_id": 1,
         "product_name": "dklsdd",
         "discount_code": "grdkfgkdf",
         "product_category": "Home",
         "product_link": "lkrgkrk",
-        "product_picture": "http://localhost:8080//uploads/product_3.png"
+        "product_picture": "http://localhost:8080/images/product_3.png"
       },
       {
-        "product_id": "2",
+        "product_id": 2,
         "product_name": "orwjnds",
         "discount_code": "svsdnvjfns",
         "product_category": "Electronics",
@@ -89,11 +81,61 @@
       }
     ]
   },
+
   {
-    "user_id": "2",
-    "post_picture": "http://localhost:8080/undefined",
+    "user_id": 2,
+    "post_picture": "http://localhost:8080/images/kitchen.jpeg",
     "post_id": 5,
-    "created_at": "2024-10-27T17:57:26.508Z",
-    "products": []
+    "created_at": "2024-10-27T01:32:22.212Z",
+    "products": [
+      {
+        "product_id": 1,
+        "product_name": "SMEG Kettle",
+        "discount_code": "summer20",
+        "product_category": "Home",
+        "product_link": "https://www.bestbuy.ca/en-ca/product/smeg-50-s-style-electric-kettle-1-7l-cream/14662130?cmp=knc-s-21379312253&&x&utm_source=google&utm_id=240729sap145&utm_medium=troas&utm_creativeformat=pmax&gad_source=1&gclid=Cj0KCQjwj4K5BhDYARIsAD1Ly2qbxCODHSarg7s0qnLNZnWR0USIqKopb6eYe0yB79Sujv-Fyn8EkGAaAqmxEALw_wcB&gclsrc=aw.ds",
+        "product_picture": "http://localhost:8080/images/Product_kettle.png"
+      }
+    ]
+  },
+  {
+    "user_id": 2,
+    "post_picture": "http://localhost:8080/images/Dining-room.jpeg",
+    "post_id": 6,
+    "created_at": "2024-10-27T01:32:22.212Z",
+    "products": [
+      {
+        "product_id": 1,
+        "product_name": "Dining Chair",
+        "discount_code": "summer20",
+        "product_category": "Home",
+        "product_link": "https://www.bouclair.com/en/furniture/seating/fabric-and-metal-dining-chair-9400412.html?utm_source=pinterest&utm_medium=cpc&utm_campaign=IMJ_CatalogSales_2024-EN-PR&utm_content=PR+-+Broad+-+18-64+-+W+-+EN&utm_term=&src=BoucPinterestCatalog&pp=0&epik=dj0yJnU9eGpVTWFfZHhvUWRzNE9SWThGeWpWRk1XOUdINGQ5RmUmcD0xJm49U0tLNzBlMGVYSF9qRjRHUlI2ZHQ0dyZ0PUFBQUFBR2NnNmxz",
+        "product_picture": "http://localhost:8080/images/Product_chair.png"
+      }
+    ]
+  },
+  {
+    "user_id": 2,
+    "post_picture": "http://localhost:8080//images/Dining-room2.png",
+    "post_id": 7,
+    "created_at": "2024-10-27T01:32:22.212Z",
+    "products": [
+      {
+        "product_id": 1,
+        "product_name": "SMEG Kettle",
+        "discount_code": "summer20",
+        "product_category": "Home",
+        "product_link": "https://www.bestbuy.ca/en-ca/product/smeg-50-s-style-electric-kettle-1-7l-cream/14662130?cmp=knc-s-21379312253&&x&utm_source=google&utm_id=240729sap145&utm_medium=troas&utm_creativeformat=pmax&gad_source=1&gclid=Cj0KCQjwj4K5BhDYARIsAD1Ly2qbxCODHSarg7s0qnLNZnWR0USIqKopb6eYe0yB79Sujv-Fyn8EkGAaAqmxEALw_wcB&gclsrc=aw.ds",
+        "product_picture": "http://localhost:8080//uploads/Product_kettle.png"
+      },
+      {
+        "product_id": 2,
+        "product_name": "Dining Chair",
+        "discount_code": "summer20",
+        "product_category": "Home",
+        "product_link": "https://www.bouclair.com/en/furniture/seating/fabric-and-metal-dining-chair-9400412.html?utm_source=pinterest&utm_medium=cpc&utm_campaign=IMJ_CatalogSales_2024-EN-PR&utm_content=PR+-+Broad+-+18-64+-+W+-+EN&utm_term=&src=BoucPinterestCatalog&pp=0&epik=dj0yJnU9eGpVTWFfZHhvUWRzNE9SWThGeWpWRk1XOUdINGQ5RmUmcD0xJm49U0tLNzBlMGVYSF9qRjRHUlI2ZHQ0dyZ0PUFBQUFBR2NnNmxz",
+        "product_picture": "http://localhost:8080//uploads/Product_chair.png"
+      }
+    ]
   }
 ]
