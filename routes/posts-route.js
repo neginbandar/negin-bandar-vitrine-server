@@ -115,4 +115,42 @@ router.route("/:user_id/:post_id").get((req, res) => {
   }
 });
 
+router.route("/:userId/:postId/:productId").get((req, res) => {
+  const { userId, postId, productId } = req.params;
+  try {
+    const posts = JSON.parse(fs.readFileSync("./data/posts.json"));
+
+    const post = posts.find(
+      (post) =>
+        post.user_id === parseInt(userId) && post.post_id === parseInt(postId)
+    );
+
+    if (!post) {
+      return res.status(404).json({ message: "Post not found" });
+    }
+
+    const products = post.products;
+    if (!Array.isArray(products)) {
+      return res
+        .status(404)
+        .json({ message: "No products found for this post" });
+    }
+
+    const product = products.find(
+      (product) => product.product_id === parseInt(productId)
+    );
+
+    console.log("Filtered product:", product);
+
+    if (product) {
+      res.status(200).json(product);
+    } else {
+      res.status(404).json({ message: "Product not found" });
+    }
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: "Error retrieving posts data" });
+  }
+});
+
 export default router;

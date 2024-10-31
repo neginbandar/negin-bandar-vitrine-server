@@ -1,7 +1,7 @@
 [
   {
     "user_id": 1,
-    "user_type": "creator",
+    "user_type": "shopper",
     "username": "negiiinb",
     "password": "1234",
     "first_name": "Negin",
@@ -18,7 +18,7 @@
     "first_name": "Linda",
     "last_name": "Ricci",
     "profile_picture": "http://localhost:8080/images/profile-pic.jpg",
-    "profile_about": "Welsome to my store! Follow me if you're interested in Home Decor and Interior Design for special deals!",
+    "profile_about": "Welcome to my store! Follow me if you're interested in Home Decor and Interior Design for special deals!",
     "created_at": 1691471862000
   },
   {
